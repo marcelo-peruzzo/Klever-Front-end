@@ -183,7 +183,20 @@ body{
     border-radius: 3px;
 }
 
+.btn_left{
+    text-decoration: none;
+    color: white;
+    background: #920000;
+    font-size: 13px;
+    padding: 3px 24px;
+    border-radius: 3px;
+}
+
 form label{
     color: #fff;
     margin-bottom: 4px;
+}
+
+.swal-modal {
+    width: 350px;
 }
