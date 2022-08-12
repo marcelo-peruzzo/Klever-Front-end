@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="main.js"></script>
   </head>
   <body>
     <section class="section">
@@ -39,26 +40,20 @@
               </div>
             </div>
             <div>
-                <form action="#">
-                    <label for="token">Token</label>
-                    <input type="text" name="token" id="token" class="form-control mb-3" />
-                    <label for="balance">Balance</label>
-                    <input type="text" name="balance" id="balance" class="form-control" />
-                </form>
+              <script>
+                editar();
+              </script>
             </div>
             <div class="d-flex justify-content-between col-md-12 mt-4">
-                <a class="btn_left" href="index.html">Remove</a>
-                <a class="btn_purple" href="index.html">Save</a>
+              <a onclick="deletar()" class="btn_left">Remove</a>
+              <a onclick="edit()" class="btn_purple">Save</a>
             </div>
-
-      
-            
           </div>
         </div>
       </div>
     </section>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="main.js"></script>
+
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
